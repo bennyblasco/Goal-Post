@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		18B056E324A93347000EE324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B056E224A93347000EE324 /* AppDelegate.swift */; };
 		18B056E524A93347000EE324 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B056E424A93347000EE324 /* SceneDelegate.swift */; };
-		18B056E724A93347000EE324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B056E624A93347000EE324 /* ViewController.swift */; };
+		18B056E724A93347000EE324 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B056E624A93347000EE324 /* GoalsVC.swift */; };
 		18B056EA24A93347000EE324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B056E824A93347000EE324 /* Main.storyboard */; };
 		18B056ED24A93347000EE324 /* GoalPost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18B056EB24A93347000EE324 /* GoalPost.xcdatamodeld */; };
 		18B056EF24A9334A000EE324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B056EE24A9334A000EE324 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		18B056DF24A93347000EE324 /* GoalPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B056E224A93347000EE324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18B056E424A93347000EE324 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18B056E624A93347000EE324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18B056E624A93347000EE324 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
 		18B056E924A93347000EE324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18B056EC24A93347000EE324 /* GoalPost.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoalPost.xcdatamodel; sourceTree = "<group>"; };
 		18B056EE24A9334A000EE324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,16 +58,48 @@
 		18B056E124A93347000EE324 /* GoalPost */ = {
 			isa = PBXGroup;
 			children = (
+				18B056FC24A9377C000EE324 /* Extensions */,
+				18B056FB24A93771000EE324 /* Enum */,
+				18B056FA24A93754000EE324 /* Views */,
+				18B056F924A93729000EE324 /* Controller */,
 				18B056E224A93347000EE324 /* AppDelegate.swift */,
-				18B056E424A93347000EE324 /* SceneDelegate.swift */,
-				18B056E624A93347000EE324 /* ViewController.swift */,
 				18B056E824A93347000EE324 /* Main.storyboard */,
+				18B056E424A93347000EE324 /* SceneDelegate.swift */,
 				18B056EE24A9334A000EE324 /* Assets.xcassets */,
 				18B056F024A9334A000EE324 /* LaunchScreen.storyboard */,
 				18B056F324A9334A000EE324 /* Info.plist */,
 				18B056EB24A93347000EE324 /* GoalPost.xcdatamodeld */,
 			);
 			path = GoalPost;
+			sourceTree = "<group>";
+		};
+		18B056F924A93729000EE324 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18B056E624A93347000EE324 /* GoalsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18B056FA24A93754000EE324 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18B056FB24A93771000EE324 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		18B056FC24A9377C000EE324 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B056E724A93347000EE324 /* ViewController.swift in Sources */,
+				18B056E724A93347000EE324 /* GoalsVC.swift in Sources */,
 				18B056E324A93347000EE324 /* AppDelegate.swift in Sources */,
 				18B056ED24A93347000EE324 /* GoalPost.xcdatamodeld in Sources */,
 				18B056E524A93347000EE324 /* SceneDelegate.swift in Sources */,
